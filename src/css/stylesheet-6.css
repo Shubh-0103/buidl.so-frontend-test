@@ -1,0 +1,81 @@
+
+.block h2,
+.block .field__label,
+.label,
+.views-label{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Giving Margin and giving space around content */
+.parent-container-flex .view-content{
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/* Styling the border  */
+.program-view-mentor-profile {
+    border-radius: 3%;
+}
+/* Giving spacing and a proper font size to a frequently asked questions */
+.information{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+/* Formating the apply now button */
+.button{
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(64,123,256);
+    font-size: medium;
+    border: none;
+    padding: 10px;
+   color: aliceblue;
+
+}
+/* Formating the date with calender icon giving margin , and set the font size */
+.calender{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.funding-section,.grants-section{
+ text-align: center;
+ width: 50%;
+}
+.funding-section{
+ border-right: 1px solid black;
+ box-sizing: border-box;
+ margin-bottom: 10px;
+}
+/*. Formating according the mobile screen of max resolution of 768 px
+  . In mobile view the verical column becomes horizontal*/
+@media screen and (max-width:768px) {
+    .funding-section,.grants-section{
+        width: 100%;
+    }
+    .funding-section{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
+/* Giving Margin */
+.page-header{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+/* Styling with font color */
+.funding-section>h2, .grants-section>h2:nth-of-type(2){
+    color:#9c9c9c;
+}
+/* set the font size */
+.y{
+    font-size: 60px;
+}
+/* set the margin */
+.z{
+    line-height: normal!important;
+    text-align: left!important;
+}
